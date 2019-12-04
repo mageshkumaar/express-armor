@@ -1,6 +1,6 @@
 {
   "name": "express-armor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An Express.js middleware that handles request level security of the application",
   "main": "index.js",
   "scripts": {
