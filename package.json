@@ -1,0 +1,39 @@
+{
+  "name": "express-armor",
+  "version": "0.0.0",
+  "description": "An Express.js middleware that handles request level security of the application",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "lint-fix": "./node_modules/.bin/eslint **/*.js --fix",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mageshkumaar/express-armor.git"
+  },
+  "author": "Magesh Kumaar",
+  "keywords": [
+    "security",
+    "express-armor",
+    "express",
+    "node",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mageshkumaar/express-armor/issues"
+  },
+  "homepage": "https://github.com/mageshkumaar/express-armor#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  }
+}
